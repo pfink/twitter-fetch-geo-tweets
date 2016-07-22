@@ -106,7 +106,7 @@ public class TwitterFetchGeoTweets extends Thread {
         
         
             //Parse messages and write them to csv file
-            for (int msgRead = 0; msgRead < 1000; msgRead++) {
+            for (int msgRead = 0; msgRead < limit; msgRead++) {
                 String jsonMsg = queue.take();
                 JSONObject msg = new JSONObject(jsonMsg);
                 
