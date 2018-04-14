@@ -1,4 +1,5 @@
 # twitter-fetch-geo-tweets
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 Small tool to filter and show tweets by location using Twitter Streaming API.
 
